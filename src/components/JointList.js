@@ -21,7 +21,7 @@ export default function JointList({ joints, setJoints }) {
 						setJoint={updateJoint}
 					/>
 					{index < joints.length - 1 && (
-						<Separator className="my-4 bg-orange-300" />
+						<Separator className="my-4 bg-orange-500" />
 					)}
 				</div>
 			))}
