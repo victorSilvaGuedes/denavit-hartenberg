@@ -19,7 +19,7 @@ export default function JointForm({ joint, index, setJoint }) {
 					name="theta"
 					value={currentJoint.theta}
 					onChange={handleChange}
-					className="bg-transparent border-2 border-zinc-700 px-2 w-20 rounded-md text-center"
+					className="bg-transparent border-2 border-zinc-800 px-2 w-20 rounded-md text-center"
 				/>
 			</div>
 			<div className="flex gap-2 justify-between">
@@ -30,7 +30,7 @@ export default function JointForm({ joint, index, setJoint }) {
 					value={currentJoint.d}
 					onChange={handleChange}
 					placeholder="Deslocamento (d)"
-					className="bg-transparent border-2 border-zinc-700 px-2 w-20 rounded-md text-center"
+					className="bg-transparent border-2 border-zinc-800 px-2 w-20 rounded-md text-center"
 				/>
 			</div>
 			<div className="flex gap-2 justify-between">
@@ -41,7 +41,7 @@ export default function JointForm({ joint, index, setJoint }) {
 					value={currentJoint.a}
 					onChange={handleChange}
 					placeholder="Comprimento (a)"
-					className="bg-transparent border-2 border-zinc-700 px-2 w-20 rounded-md text-center"
+					className="bg-transparent border-2 border-zinc-800 px-2 w-20 rounded-md text-center"
 				/>
 			</div>
 			<div className="flex gap-2 justify-between">
@@ -52,7 +52,7 @@ export default function JointForm({ joint, index, setJoint }) {
 					value={currentJoint.alpha}
 					onChange={handleChange}
 					placeholder="Ângulo (α)"
-					className="bg-transparent border-2 border-zinc-700 px-2 w-20 rounded-md text-center"
+					className="bg-transparent border-2 border-zinc-800 px-2 w-20 rounded-md text-center"
 				/>
 			</div>
 		</div>
